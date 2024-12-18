@@ -1,0 +1,64 @@
+# General
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# Java/IDE-related
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.idea/
+*.project
+*.classpath
+target/
+out/
+build/
+
+# Karate Reports
+karate-reports/
+karate-output/
+
+# Test-specific
+results.json
+*.feature.lock
+
+# Environment-specific files
+.env
+*.env.local
+*.env.*
+config/*.local.json
+config/*.secret.json
+
+# Node.js-related (if Karate is used with Node modules)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Maven/Gradle-related
+.mvn/
+.gradle/
+**/build/
+
+# Coverage tools
+coverage/
+*.lcov
+
+# OS Generated Files
+Thumbs.db
+ehthumbs.db
+*.stackdump
+*.sublime-workspace
+*.sublime-project
+desktop.ini
+.vscode
+
+# Karate-specific dynamic files
+karate.log
+karate-config.js.bak
+karate-debug.log
+
